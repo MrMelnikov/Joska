@@ -1,0 +1,150 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.main{
+	height: 100vh;
+	background-image: url(https://wallscloud.net/uploads/cache/3561363951/The_Minimalist_17-1024x576-MM-90.png);
+	background-position: center;
+	background-size: cover;
+}
+.b1{
+	background-color: #ffffff11; 
+	border: 2px solid white; 
+    padding: 10px 15px;	
+    text-align: center;
+    font-size: 40px;
+    transition: 0.5s;
+	outline: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+.b1:hover{
+	background-color: #bababa55; 
+}
+.div1{
+	width: 289px;
+	height: 78px;
+	padding-top: 200px;
+	/*border: 1px solid red;*/ 
+	text-align: center;
+	margin: auto;
+}
+.popup{
+	width: 100%;
+	height: 100%;
+	background-color: #bdbdbd55;
+	position: fixed;
+	z-index: 1;
+	display: none;
+}
+.popup2{
+	width: 100%;
+	height: 100%;
+	background-image: url(https://sun9-62.userapi.com/impg/spZ-nXOfnHk-sjhbcLT0q_Z56_mREaqMa-YoDg/xHWpkVgzWOI.jpg?size=1080x810&quality=96&proxy=1&sign=afc32ca782f35f6e4288db50c7911697);
+	z-index: 2;
+	display: none;
+}
+.content{
+	width: 60vw;
+	height: 88vh;
+	margin: auto;
+	margin-top: 5vh;
+	border-radius: 20px;
+	background-color: #f2f2f2;
+}
+.block-img{
+	width: 20vw;
+	height: 88vh;
+	float: left;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: white;
+	background-image: url(https://coddyschool.com/bitrix/templates/coddy/img/img_child_summer.png);
+	background-position: center;
+	background-size: cover;
+}
+.block-regform{
+	width: 40vw;
+	height: 88vh;
+	float: left;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: #dfe8eb;
+}
+h1{
+	text-transform: uppercase;
+	color: #0097bd;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+form{
+	width: 30vw;
+	height: 88vh;
+	/*padding: 30px;*/
+	float: left;
+
+}
+.group{
+	margin: 25px;
+	padding: 8px;
+	padding-left: 20px;
+}
+.reg-text{
+	font-weight: bold;
+	font-size: 18px; 
+}
+.inp{
+	width: 85%;
+	height: 25px;
+	outline: none;
+	border: none;
+	font-size: 18px; 
+	padding-top: 8px;
+	border-bottom: 2px solid #a0a4a5;
+	background-color: #dfe8eb;
+	color: #313638;
+}
+.check{
+ 	margin: 25px;
+	padding: 5px;
+	padding-left: 20px;
+	clear: both;
+}
+.div2{
+	width: 140px;
+	height: 46px;
+	margin: 20px 40px;
+	padding: 5px; 
+}
+.b2{
+	background-color: #23597a;
+	color: white;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	outline: 0;
+	padding: 10px 15px;
+	border-radius: 20px;
+	transition: 0.5s;
+	box-shadow: 0px 4px #254559;
+}
+.b2:hover{
+	box-shadow: none;
+}
+.coddy-img{
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+.close{
+	margin: 25px;
+	float: right;
+	cursor: pointer;
+}
+.cancel{
+	width: 30px;
+	height: 30px;
+}
